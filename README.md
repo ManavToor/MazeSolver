@@ -20,7 +20,8 @@ I followed a tutorial but I am capable of making a project like this by myself<b
 .<br />
 .<br />
 
-![image](https://github.com/ManavToor/MazeSolver/assets/68403400/decf4d0c-f9c0-4d13-b2f6-8e19c7232bb4)
+![image](https://github.com/ManavToor/MazeSolver/assets/68403400/d08fed7b-5018-4b4e-904d-d9fb5b4ac6e5)
+
 
 
 <!--
