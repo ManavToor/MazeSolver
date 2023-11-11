@@ -19,7 +19,7 @@ I followed a tutorial but I am capable of making a project like this by myself<b
 .<br />
 .<br />
 .<br />
-![image](https://github.com/ManavToor/MazeSolver/assets/68403400/decf4d0c-f9c0-4d13-b2f6-8e19c7232bb4)
+finalProduct![image](https://github.com/ManavToor/MazeSolver/assets/68403400/decf4d0c-f9c0-4d13-b2f6-8e19c7232bb4)
 
 
 <!--
