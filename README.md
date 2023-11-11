@@ -9,7 +9,7 @@ Wanted to learn more about algorithms so I watched some youtube videos about maz
   &emsp;&emsp;-maze is in code<br /><br />
 
 <br />
-I followed a tutorial but I am capable of making a project like this by myself<br />
+I followed a tutorial but I did make some modifications to help the code run faster and be more visually apealing<br />
 
 <h2>Languages and Utilities Used</h2>
 
