@@ -1,33 +1,37 @@
 <h1>Maze Solver</h1>
 
 <h2>Description</h2>
-Wanted to learn more about algorithms so I watched some youtube videos about maze solvers. This is a simple code that uses Breadth First Search (BFS) to solve a maze
+Wanted to learn more about algorithms and slowly get into AI so I watched some youtube videos and created these maze solvers. These are 3 maze solvers that use Breadth-First Search, Depth First-Search, Greedy Best-First Search, and A* Search.
 <br />
 <br />
 <b>This is my maze solver:</b><br /><br />
-  &emsp;&emsp;-solves maze using breadth-first-search<br /><br />
+  &emsp;&emsp;-solves maze using various uninformed and informed search algorithms<br /><br />
   &emsp;&emsp;-maze is in code<br /><br />
 
-<br />
-I followed a tutorial but I did make some modifications to help the code run faster and be more visually apealing:<br />
-<br />
-The first thing I did was make it so that the code didn't repeat over itself (it would do patterns like DownUpDownUp... or RightRightLeftLeftRightRightLeftLeft...). It was super simple, I just had to alter the if statements to also check if a spot had already been traveled upon by adding "and maze[x][y] != '+'<br />
-
-![image](https://github.com/ManavToor/MazeSolver/assets/68403400/fc422f84-1d18-47b3-9bf2-7bd353290267)
-
-<br />
-The other thing I did was make it so at the end, the maze would be printed with only the final path instead of with every path explored and covered in plus signs. In doing so, I realized that I couldn't pass arrays by value but instead python always passed them by reference, so whenever I called the function to print the maze, it actually added the plus signs into original maze array. The fix was easy however, I just had to make a deep copy of the array that I could use to solve the maze, and then use the original to print the final path.
 <h2>Languages and Utilities Used</h2>
 
 - <b>Python</b> 
 
-<h2>Output:</h2>
+<h2>Outputs:</h2>
 .<br />
 .<br />
 .<br />
+<b>BFS</b>
 
-![image](https://github.com/ManavToor/MazeSolver/assets/68403400/d08fed7b-5018-4b4e-904d-d9fb5b4ac6e5)
+![image](https://github.com/ManavToor/MazeSolver/assets/68403400/881539c5-d2d9-4a3d-919c-cd4561080783) 
 
+<b>DFS</b>
+
+![image](https://github.com/ManavToor/MazeSolver/assets/68403400/3dbdba78-b897-4927-9fec-12ad4f13fd6e)
+
+<b>GBSF</b>
+
+![image](https://github.com/ManavToor/MazeSolver/assets/68403400/d0ed81db-27f1-43cf-a30a-a5b791c40962)
+
+
+<b>A*</b>
+
+![image](https://github.com/ManavToor/MazeSolver/assets/68403400/05bb6df4-0b21-45ed-b055-fe5f1a434ebe)
 
 
 <!--
